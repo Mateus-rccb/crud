@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>CRUD</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                CRUD PHP
+            </a>
+        </nav>
+
+        <form action="#" class="forms row g-3">
+            <div class="col-md-3">
+                <label for="nome">Nome:</label>
+                <input class="form-control" type="text" name="nome" value="" required>
+            </div>
+
+            <div class="col-md-2">
+                <label for="sobrenome">Sobrenome:</label>
+                <input class="form-control" type="text" name="sobrenome" value="" required>
+            </div>
+
+            <div class="col-md-2">
+                <label for="idade">Data de nascimento:</label>
+                <input class="form-control" type="date" name="idade" value="" required>
+            </div>
+
+            <div class="col-md-1">
+                <label for="sexo">Sexo:</label>
+                <select class="form-control" name="sexo" id="sexo">
+                    <option value="masc">M</option>
+                    <option value="fem">F</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <br>
+                <button type="submit" class="btn btn-primary" name="envio">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
